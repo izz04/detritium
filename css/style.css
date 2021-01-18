@@ -302,9 +302,7 @@ template {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  margin-bottom: 0.5rem;
-  font-weight: 500;
-  line-height: 1.2; }
+  font-weight: 500; }
 
 h1, .h1 {
   font-size: 2.5rem; }
@@ -6586,7 +6584,7 @@ button.bg-dark:focus {
 
 .mt-2,
 .my-2 {
-  margin-top: 0.5rem !important; }
+  margin-top: !important; }
 
 .mr-2,
 .mx-2 {
@@ -6651,7 +6649,7 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 3rem !important; }
+  margin-bottom:  !important; }
 
 .ml-5,
 .mx-5 {
@@ -8159,8 +8157,7 @@ a {
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
-  line-height: 1.4;
-  color: #2c2c2c;
+  color: #FFFFFF;
   font-weight: 400; }
 
 .ftco-section {
@@ -8847,9 +8844,9 @@ h1, h2, h3, h4, h5,
       color: #fff; }
 
 .img {
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
-  background-position: center center; }
+  background-position: center; }
 
 .pagination {
   width: 100%; }
@@ -9229,7 +9226,7 @@ h1, h2, h3, h4, h5,
     left: 0;
     right: 0;
     content: '';
-    opacity: .3;
+    opacity: .2;
     background: #000;
     z-index: -1; }
 
